@@ -4,23 +4,25 @@
 
 body{
 	margin: 0;
-	background: linear-gradient(to right, #00AAFF, #00FF6C);
+	background-image: url("./abstract-swirl.jpg");
 }
 
 .calculator-grid{
 	display: grid;
-	margin-top: 2rem;
+	margin-top: 20px;
 	justify-content: center;
 	grid-template-columns: repeat(4, 6rem);	
 	grid-template-rows: minmax(7rem, auto) repeat(5, 6rem);
+	margin-bottom: 20px;
 }
 
 .calculator-grid >button{
 	cursor: pointer;
 	font-size: 2rem;
-	border: 1px solid white;
+	border: 1px solid #1f1f7a;
 	outline: none;
-	background-color: rgba(255, 255, 255, .75);
+	color: white;
+	background-color: #1a000d;
 }
 
 .calculator-grid > button:hover
